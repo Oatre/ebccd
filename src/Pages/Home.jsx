@@ -8,6 +8,7 @@ export const Home = () => {
     <div>
       <Navbar />
       <HeroBanner title="HJEM" />
+      <h1>Testing update</h1>
     </div>
   );
 };
