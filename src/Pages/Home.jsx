@@ -2,6 +2,8 @@ import React from 'react';
 import { Navbar } from '../Components/Navbar/Navbar';
 import './Home.css';
 import { HeroBanner } from '../Components/Herobanner/HeroBanner';
+import ImageWithText from '../Components/ImageWithText/ImageWithText';
+import bigboy from "../Assets/bigboy.jpg";
 
 export const Home = () => {
   return (
@@ -9,8 +11,11 @@ export const Home = () => {
       <Navbar />
       <HeroBanner title="EVIDENCE-BASED COACHING DUO" />
       <div className="content">
-        <p className="centered-paragraph">HJEM ipsum dolor sit amet, consectetur adipiscing elit. Nullam consequat eros id erat interdum dignissim. Donec sit amet faucibus est. Ut et maximus
-         felis. Morbi semper aliquam urna, at tempor risus laoreet sed. Sed nec luctus velit, vitae consectetur risus. Aenean non turpis eu purus tristique congue. Vestibulum pharetra arcu in odio placerat, non varius elit facilisis.</p>
+      <ImageWithText
+          imageSrc={bigboy}
+          altText="Logo"
+          text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla nec lorem eros."
+        />
       </div>
     </div>
   );

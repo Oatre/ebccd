@@ -1,0 +1,16 @@
+.image-with-text {
+    display: flex;
+    align-items: center;
+  }
+  
+  .image {
+    max-width: 289px;
+    max-height: 512px;
+    width: 25%;
+    height: auto;
+  }
+  
+  .text {
+    text-align: left;
+
+  }
