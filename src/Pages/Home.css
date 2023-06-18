@@ -1,8 +1,36 @@
 .container {
-    width: 100%;
-    margin-left: auto;
-    margin-right: auto;
-    max-width: 100%;
-    overflow-x: hidden;
-  }
-  
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+
+.heroWrapper img {
+  max-width: 200px;
+  max-height: 300px;
+  width: 25%;
+  height: 100%;
+}
+
+.text-overlay {
+  position: absolute;
+  color: white;
+  font-size: x-large;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+}
+
+.centered-paragraph {
+  text-align: center;
+}

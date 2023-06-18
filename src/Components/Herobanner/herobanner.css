@@ -9,13 +9,23 @@
     flex-direction: column;
   }
   
-  .heroWrapper img {
-    max-width: 200px;
+  .heroWrapper a {
+    max-width: 410px;
     max-height: 300px;
-    width: 25%;
+    width: 100%;
+    height: 100%;
+  }
+
+  .heroWrapper img {
+
+    width: 100%;
     height: 100%;
   }
 
   .heroWrapper h1 {
+    color: white;
+  }
+
+  .heroWrapper h2 {
     color: white;
   }
