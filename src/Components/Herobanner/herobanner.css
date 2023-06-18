@@ -1,0 +1,21 @@
+.heroWrapper {
+    display: flex;
+    background-image: linear-gradient(to bottom,#06283D, #1363DF,#47B5FF,#dcdde1 98%);
+    align-items: center;
+    justify-content: center;
+    max-height: 500px;
+    height: 100%;
+    padding: 101px 0 100px 0;
+    flex-direction: column;
+  }
+  
+  .heroWrapper img {
+    max-width: 200px;
+    max-height: 300px;
+    width: 25%;
+    height: 100%;
+  }
+
+  .heroWrapper h1 {
+    color: white;
+  }
