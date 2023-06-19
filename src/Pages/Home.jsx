@@ -13,7 +13,7 @@ export const Home = () => {
       <div className="content">
       <ImageWithText
           imageSrc={bigboy}
-          altText="Logo"
+          altText="Bigboy"
           text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla nec lorem eros."
         />
       </div>

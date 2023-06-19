@@ -1,16 +1,18 @@
 .image-with-text {
-    display: flex;
-    align-items: center;
-  }
-  
-  .image {
-    max-width: 289px;
-    max-height: 512px;
-    width: 25%;
-    height: auto;
-  }
-  
-  .text {
-    text-align: left;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
 
-  }
+.image-with-text img {
+    height: 500px;
+    width: 400px;
+
+}
+
+.text {
+  text-align: center;
+
+}
+
