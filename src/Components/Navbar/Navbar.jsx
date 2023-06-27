@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import Button from '../Button/Button'; // Adjusted import path
+import Button from '../Button/Button'; 
 import "../Navbar/navbar.css";
 
 export const Navbar = () => {
@@ -9,12 +9,12 @@ export const Navbar = () => {
       <ul className="navbar">
         <li>
           <Link to="/">
-            <Button label="HJEM" /> {/* Using the Button component */}
+            <Button label="HJEM" /> 
           </Link>
         </li>
         <li>
           <Link to="/about">
-            <Button label="OM OSS" /> {/* Using the Button component */}
+            <Button label="OM OSS" /> 
           </Link>
         </li>
         <li>

@@ -4,6 +4,8 @@ import './Home.css';
 import { HeroBanner } from '../Components/Herobanner/HeroBanner';
 import ImageWithText from '../Components/ImageWithText/ImageWithText';
 import bigboy from "../Assets/bigboy.jpg";
+import PackagesSection from '../Components/Programpackages/PackagesSection';
+
 
 export const Home = () => {
   return (
@@ -17,6 +19,7 @@ export const Home = () => {
           text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla nec lorem eros."
         />
       </div>
+      <PackagesSection/> 
     </div>
   );
 };
