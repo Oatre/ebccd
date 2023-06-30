@@ -2,8 +2,7 @@ import React from 'react';
 import { Navbar } from '../Components/Navbar/Navbar';
 import './Home.css';
 import { HeroBanner } from '../Components/Herobanner/HeroBanner';
-import ImageWithText from '../Components/ImageWithText/ImageWithText';
-import bigboy from "../Assets/bigboy.jpg";
+import ImageWithText from '../Components/ImageWithText/ImageWithText'; //Can stay, may use later.
 import PackagesSection from '../Components/Programpackages/PackagesSection';
 
 
@@ -13,11 +12,6 @@ export const Home = () => {
       <Navbar />
       <HeroBanner title="EVIDENCE-BASED COACHING DUO" />
       <div className="content">
-      <ImageWithText
-          imageSrc={bigboy}
-          altText="Bigboy"
-          text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla nec lorem eros."
-        />
       </div>
       <PackagesSection/> 
     </div>

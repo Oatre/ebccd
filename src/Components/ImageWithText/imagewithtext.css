@@ -2,18 +2,25 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  padding: 20px;
+  border-radius: 8px;
+  background-image: linear-gradient(to bottom,#dcdde1, #47B5FF,#dcdde1 100%);
+  box-shadow: 0 2px 4px #dcdde1(0, 0, 0, 0.6);
   margin-bottom: 20px;
 }
 
 .image-with-text img {
     height: 500px;
     width: 400px;
-    border: 2px solid #000080;
-    box-shadow: 0 2px 4px rgba(240, 5, 5, 0.1);
-
+    border-radius: 10px;
 }
 
-.text {
+.image-with-text p {
   text-align: center;
+  background-color: gray, 98%;
 }
 
+.image-with-text h1 {
+  color: black;
+  background: gray, 98%;
+}

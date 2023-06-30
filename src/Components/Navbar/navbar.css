@@ -1,12 +1,10 @@
 .navbar {
   list-style: none; 
     margin: 0;
-    padding: 0;
     display: flex;
     align-items: center;
     justify-content: center;
     background-color: #33333300;
-    /* padding: 5px 5px; */
     margin: 0;
     position: absolute;
     top: 0;
