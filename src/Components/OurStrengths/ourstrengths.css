@@ -1,4 +1,6 @@
+
 .our-strength-wrapper {
+    width: 98%;
     margin: 2rem;
   }
   
@@ -11,16 +13,17 @@
   }
   
   .our-strength-grid {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    display: flex;
+    width: 100%;
+    max-width: 100%;
+    justify-content: space-between;
     gap: 2rem;
-    max-width: 600px;
     margin: 0 auto;
   }
   
   .our-strength-item {
-
-    background-color: #165ea5;
+    flex-basis: 100%;
+    background-image: linear-gradient(to bottom, #16314D, #1E4364, #28547B, #336791);
     border-radius: 8px;
     padding: 2rem;
     text-align: center;
@@ -28,18 +31,18 @@
   
   .our-strength-image {
     max-width: 50%;
-    max-height: 50%;
     height: auto;
+    margin-bottom: 1rem;
     border-radius: 5%;
   }
   
   .our-strength-title {
     font-size: 1.5rem;
-    margin-top: 1rem;
-    color: #06283D;
+    margin-bottom: 1rem;
+    color: #ffffff;
   }
   
   .our-strength-description {
-    margin-top: 1rem;
-    color: #444444;
+    color: #ffffff;
   }
+  

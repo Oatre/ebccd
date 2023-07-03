@@ -10,12 +10,12 @@ const OurStrengths = () => {
         <div className="our-strength-item">
           <img src={bigboy} alt="Strength 1" className="our-strength-image" />
           <h3 className="our-strength-title">Styrke</h3>
-          <p className="our-strength-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          <p className="our-strength-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
         </div>
         <div className="our-strength-item">
           <img src={bigboy} alt="Strength 2" className="our-strength-image" />
           <h3 className="our-strength-title">Muskelvekst</h3>
-          <p className="our-strength-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          <p className="our-strength-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
         </div>
         <div className="our-strength-item">
           <img src={bigboy} alt="Strength 3" className="our-strength-image" />

@@ -12,7 +12,7 @@ h1 {
     max-width: 1200px;
     padding: 32px;
     padding-right: 32px;
-    background: #3c6382;
+    background-image: linear-gradient(to bottom, #16314D, #1E4364, #28547B, #336791);
     margin: 200px auto;
     
 }
