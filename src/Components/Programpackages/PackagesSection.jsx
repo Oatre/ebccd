@@ -25,7 +25,7 @@ const PackagesSection = () => {
               <div className="dot">
                 <img src= {checkmark} alt="checkmark" />
               </div>
-              <p>Info innhentes via kundeskjema</p>
+              <p>Coaching med to</p>
             </li>
             <li className="info-item">
               <div className="dot">
@@ -44,6 +44,7 @@ const PackagesSection = () => {
         <li className="card-list-item">
           <div className="headline-wrapper">
             <h2>Treningspakken</h2>
+            <h3>Anbefales!</h3>
             <p>2799,- første måned. deretter</p>
           </div>
           <div className="price-wrapper">
@@ -55,7 +56,7 @@ const PackagesSection = () => {
               <div className="dot">
                 <img src= {checkmark} alt="checkmark" />
               </div>
-              <p>Info innhentes via kundeskjema</p>
+              <p>Coaching med to</p>
             </li>
             <li className="info-item">
               <div className="dot">
@@ -85,7 +86,7 @@ const PackagesSection = () => {
               <div className="dot">
                 <img src= {checkmark} alt="checkmark" />
               </div>
-              <p>Info innhentes via kundeskjema</p>
+              <p>Coaching med to</p>
             </li>
             <li className="info-item">
               <div className="dot">

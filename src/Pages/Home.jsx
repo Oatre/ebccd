@@ -4,7 +4,7 @@ import './Home.css';
 import { HeroBanner } from '../Components/Herobanner/HeroBanner';
 // import ImageWithText from '../Components/ImageWithText/ImageWithText'; //Can stay, may use later.
 import PackagesSection from '../Components/Programpackages/PackagesSection';
-
+import OurStrengths from '../Components/OurStrengths/OurStrengths';
 
 export const Home = () => {
   return (
@@ -13,6 +13,7 @@ export const Home = () => {
       <HeroBanner title="EVIDENCE-BASED COACHING DUO" />
       <div className="content">
       </div>
+      <OurStrengths/>
       <PackagesSection/> 
     </div>
   );
