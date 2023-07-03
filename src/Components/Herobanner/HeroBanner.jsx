@@ -15,7 +15,8 @@ const isHomepage = location.pathname === '/';
         <img src={logo} alt="logo" style={{ maxWidth: '100%', height: 'auto' }} />
       </Link>
       <h1>{title}</h1>
-      {isHomepage && <h2>COACHING MED TO</h2>}
+      {isHomepage && <h2>SAMMEN ER VI STERKERE - MED TO COACHER, DOBLES RESULTATENE</h2>}
+      
     </div>
   );
 };
