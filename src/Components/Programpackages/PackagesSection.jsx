@@ -1,6 +1,5 @@
 import React from 'react';
 import './packagessection.css';
-
 import trainingPackages from './packages.json'
 import PackageItem from './PackageItem';
 
