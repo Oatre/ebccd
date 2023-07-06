@@ -1,7 +1,7 @@
 import React from 'react'
 import checkmark from '../../Assets/checkmark.png';
 import Button from '../Button/Button';
-
+ 
 const PackageItem = (item) => (
     <li className="card-list-item">
         <div className="headline-wrapper">
