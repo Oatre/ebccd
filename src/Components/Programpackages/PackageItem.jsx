@@ -2,9 +2,7 @@ import React from 'react'
 import checkmark from '../../Assets/checkmark.png';
 import Button from '../Button/Button';
 
-const PackageItem = (item) => {
-
-  return (
+const PackageItem = (item) => (
     <li className="card-list-item">
         <div className="headline-wrapper">
             <h2>{item.pack.title}</h2>
@@ -37,7 +35,7 @@ const PackageItem = (item) => {
         </ul>
         <Button label= "Bestill"/>
     </li>
-  )
-}
+)
+
 
 export default PackageItem

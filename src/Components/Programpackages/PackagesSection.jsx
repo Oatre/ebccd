@@ -3,7 +3,6 @@ import './packagessection.css';
 import trainingPackages from './packages.json'
 import PackageItem from './PackageItem';
 
-
 const PackagesSection = () => {
   return (
     <div className="packs-wrapper">
