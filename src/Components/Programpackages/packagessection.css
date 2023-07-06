@@ -36,6 +36,10 @@ h1 {
     min-width: 200px;
 }
 
+.card-list-item .navBtn {
+    background-color: #4bae4f;
+}
+
 .headline-wrapper, .price-wrapper {
     display: flex;
     align-items: center;
