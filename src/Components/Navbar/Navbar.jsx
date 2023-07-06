@@ -5,11 +5,6 @@ import '../Navbar/navbar.css';
 import HiddenButton from '../Button/HiddenButton';
 
 export const Navbar = () => {
-  const [showSubmenu, setShowSubmenu] = useState(false);
-
-  const handleSubmenuToggle = () => {
-    setShowSubmenu(!showSubmenu);
-  };
 
   return (
     <nav className="nav">
@@ -25,17 +20,13 @@ export const Navbar = () => {
             <Link to="/about">
               <Button
                 label="OM OSS"
-                onMouseEnter={handleSubmenuToggle}
-                onMouseLeave={handleSubmenuToggle}
               />
             </Link>
-            {showSubmenu && (
               <div className="navbar-submenu">
                 <Link to="/about/vision">
                   <HiddenButton label="VÅR VISJON" />
                 </Link>
               </div>
-            )}
           </div>
           <div className="bar"></div>
         </li>
