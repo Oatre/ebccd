@@ -1,0 +1,80 @@
+[
+    {
+        "title": "Treningspakken",
+        "subtitle": "2799,- første måned. deretter",
+        "id": "1",
+        "price": "2499,-",
+        "priceSubTitle": "i mnd",
+        "benefits": [
+            {
+                "benefitTitle": "Coaching med to",
+                "included": true,
+                "id": "benefit-1"
+            },
+            {  
+                "benefitTitle": "Tilpasset treningsprogram",
+                "included": true,
+                "id": "benefit-2"
+            },
+            {  
+                "benefitTitle": "Veiledning/tilpasset kosthold",
+                "included": false,
+                "id": "benefit-3"
+            }
+        ]
+    },
+    {
+        "title": "Treningspakken",
+        "titleIngress": "Anbefales!",
+        "id": "2",
+        "subtitle": "2799,- første måned. deretter",
+        "price": "2499,-",
+        "priceSubTitle": "i mnd",
+        "benefits": [
+            {
+                "benefitTitle": "Coaching med to",
+                "included": true,
+                "id": "benefit-4"
+            },
+            {  
+                "benefitTitle": "Tilpasset treningsprogram",
+                "included": true,
+                "id": "benefit-5"
+            },
+            {  
+                "benefitTitle": "Veiledning/tilpasset kosthold",
+                "included": true,
+                "id": "benefit-6"
+            },
+            {  
+                "benefitTitle": "Veiledning/tilpasset kosthold",
+                "included": true,
+                "id": "benefit-7"
+            }
+        ]
+    },
+    {
+        "title": "Treningspakken",
+        "subtitle": "2799,- første måned. deretter",
+        "id": "3",
+        "price": "2499,-",
+        "priceSubTitle": "i mnd",
+        "benefits": [
+            {
+                "benefitTitle": "Coaching med to",
+                "included": true,
+                "id": "benefit-8"
+            },
+            {  
+                "benefitTitle": "Tilpasset treningsprogram",
+                "included": true,
+                "id": "benefit-9"
+            },
+            {  
+                "benefitTitle": "Veiledning/tilpasset kosthold",
+                "included": false,
+                "id": "benefit-10"
+            }
+        ]
+    }
+]

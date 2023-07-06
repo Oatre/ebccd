@@ -1,108 +1,18 @@
 import React from 'react';
 import './packagessection.css';
-import checkmark from '../../Assets/checkmark.png';
-import Button from '../Button/Button';
-
-
+import trainingPackages from './packages.json'
+import PackageItem from './PackageItem';
 
 const PackagesSection = () => {
   return (
     <div className="packs-wrapper">
       <h1>Pakker og priser</h1>
       <ul className="card-list">
-        {/* Pakke 1 */}
-        <li className="card-list-item">
-          <div className="headline-wrapper">
-            <h2>Treningspakken</h2>
-            <p>2799,- første måned. deretter</p>
-          </div>
-          <div className="price-wrapper">
-            <h3>2499,-</h3>
-            <p>i mnd</p>
-          </div>
-          <ul className="info-list">
-            <li className="info-item">
-              <div className="dot">
-                <img src= {checkmark} alt="checkmark" />
-              </div>
-              <p>Coaching med to</p>
-            </li>
-            <li className="info-item">
-              <div className="dot">
-                <img src= {checkmark} alt="checkmark" />
-              </div>
-              <p>Tilpasset treningsprogram</p>
-            </li>
-            <li className="info-item">
-              <div className="dot"></div>
-              <p>Veiledning/tilpasset kosthold</p>
-            </li>
-          </ul>
-          <Button label= "Bestill"/>
-        </li>
-        {/* Pakke 2 */}
-        <li className="card-list-item">
-          <div className="headline-wrapper">
-            <h2>Treningspakken</h2>
-            <h3>Anbefales!</h3>
-            <p>2799,- første måned. deretter</p>
-          </div>
-          <div className="price-wrapper">
-            <h3>2499,-</h3>
-            <p>i mnd</p>
-          </div>
-          <ul className="info-list">
-            <li className="info-item">
-              <div className="dot">
-                <img src= {checkmark} alt="checkmark" />
-              </div>
-              <p>Coaching med to</p>
-            </li>
-            <li className="info-item">
-              <div className="dot">
-                <img src= {checkmark} alt="checkmark" />
-              </div>
-              <p>Tilpasset treningsprogram</p>
-            </li>
-            <li className="info-item">
-              <div className="dot"></div>
-              <p>Veiledning/tilpasset kosthold</p>
-            </li>
-          </ul>
-          <Button label= "Bestill"/>
-        </li>
-        {/* Pakke 3 */}
-        <li className="card-list-item">
-          <div className="headline-wrapper">
-            <h2>Treningspakken</h2>
-            <p>2799,- første måned. deretter</p>
-          </div>
-          <div className="price-wrapper">
-            <h3>2499,-</h3>
-            <p>i mnd</p>
-          </div>
-          <ul className="info-list">
-            <li className="info-item">
-              <div className="dot">
-                <img src= {checkmark} alt="checkmark" />
-              </div>
-              <p>Coaching med to</p>
-            </li>
-            <li className="info-item">
-              <div className="dot">
-                <img src= {checkmark} alt="checkmark" />
-              </div>
-              <p>Tilpasset treningsprogram</p>
-            </li>
-            <li className="info-item">
-              <div className="dot"></div>
-              <p>Veiledning/tilpasset kosthold</p>
-            </li>
-          </ul>
-          <Button label= "Bestill"/>
-        </li>
-
-
+        {
+          trainingPackages && trainingPackages.map((trainingPackage) => (
+            <PackageItem key={trainingPackage.id} pack={trainingPackage}/>
+          ))
+        }
       </ul>
     </div>
     

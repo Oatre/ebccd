@@ -22,11 +22,11 @@ export const Navbar = () => {
                 label="OM OSS"
               />
             </Link>
-              <div className="navbar-submenu">
-                <Link to="/about/vision">
-                  <HiddenButton label="VÅR VISJON" />
-                </Link>
-              </div>
+            <div className="navbar-submenu">
+              <Link to="/about/vision">
+                <HiddenButton label="VÅR VISJON" />
+              </Link>
+            </div>
           </div>
           <div className="bar"></div>
         </li>
