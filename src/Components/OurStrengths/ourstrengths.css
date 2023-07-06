@@ -8,7 +8,7 @@
     text-align: center;
     font-size: 2rem;
     font-weight: bold;
-    color: #06283D;
+    color: #ffffff;
     margin-bottom: 2rem;
   }
   
@@ -23,7 +23,7 @@
   
   .our-strength-item {
     flex-basis: 100%;
-    background-image: linear-gradient(to bottom, #16314D, #1E4364, #28547B, #336791);
+    background-image: linear-gradient(to bottom, #16314D, #1E4364);
     border-radius: 8px;
     padding: 2rem;
     text-align: center;

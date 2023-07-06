@@ -1,6 +1,6 @@
 .heroWrapper {
     display: flex;
-    background-image: linear-gradient(to bottom, #16314D, #1E4364, #28547B, #336791);
+    /* background-image: linear-gradient(to bottom,#06283D, #1363DF,#47B5FF,#dcdde1 98%); */
     align-items: center;
     justify-content: center;
     max-height: 500px;
@@ -30,7 +30,7 @@
   .heroWrapper h1 span:nth-of-type(10),
   .heroWrapper h1 span:nth-of-type(16),
   .heroWrapper h1 span:nth-of-type(25) {
-    color: #06283D;
+    color: #FF7F00;
   }
 
   .heroWrapper h2 {
@@ -48,7 +48,7 @@
   }
 
   .h2-first {
-    color: #06283D !important;
+    color: #FF7F00 !important;
   }
   
   .h2-second {
