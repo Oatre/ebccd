@@ -1,6 +1,8 @@
 import React from 'react';
 import './ourstrengths.css';
 import bigboy from "../../Assets/bigboy.jpg";
+import strength from '../../Assets/Styrke.png';
+
 
 const OurStrengths = () => {
   return (
@@ -8,7 +10,7 @@ const OurStrengths = () => {
       <h2 className="our-strength-heading">Våre Styrker</h2>
       <div className="our-strength-grid">
         <div className="our-strength-item">
-          <img src={bigboy} alt="Strength 1" className="our-strength-image" />
+          <img src={strength} alt="Strength 1" className="our-strength-image" />
           <h3 className="our-strength-title">Styrke</h3>
           <p className="our-strength-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
         </div>

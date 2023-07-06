@@ -14,6 +14,7 @@ export const About = () => {
           heading="Espen Aukrust"
           text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla nec lorem eros."
         />
+        
     </div>
   )
 }

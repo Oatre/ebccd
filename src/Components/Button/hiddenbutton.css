@@ -1,0 +1,8 @@
+.hidden-button {
+    display: none;
+  }
+  
+  .hidden-button.visible {
+    display:inline-block;
+    position: absolute;
+  }
