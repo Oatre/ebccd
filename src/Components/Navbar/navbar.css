@@ -50,6 +50,7 @@ ul.navbar:before {
   position: absolute;
   background-color: #173350;
   padding: 12px;
+  transition: 0.4;
 }
 
 .navbar-submenu a {

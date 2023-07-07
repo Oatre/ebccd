@@ -11,8 +11,6 @@ export const Home = () => {
     <div>
       <Navbar />
       <HeroBanner title="EVIDENCE-BASED COACHING DUO" />
-      <div className="content">
-      </div>
       <OurStrengths/>
       <PackagesSection/> 
     </div>

@@ -3,9 +3,12 @@ import logo from "../../Assets/whitenobackgrund.png";
 import './herobanner.css';
 import { Link, useLocation } from 'react-router-dom';
 
-export const HeroBanner = ({ title, link }) => {
+export const HeroBanner = ({ title = '', link }) => {
   const location = useLocation();
   const isHomepage = location.pathname === '/';
+
+  // Split the title into words
+  const words = title.split(' ');
 
   return (
     <div className='heroWrapper'>
@@ -13,9 +16,20 @@ export const HeroBanner = ({ title, link }) => {
         <img src={logo} alt="logo" style={{ maxWidth: '100%', height: 'auto' }} />
       </Link>
       <h1>
-        {title.split('').map((letter, index) => (
-          <span key={index} className={`letter-${index}`}>{letter}</span>
-        ))}
+        {words.map((word, wordIndex) => 
+          <>
+            {word.split('').map((letter, letterIndex) => (
+              <span 
+                key={`${wordIndex}-${letterIndex}`} 
+                className={letterIndex === 0 ? `first-letter` : `letter-${letterIndex}`}
+              >
+                {letter}
+              </span>
+            ))}
+            {/* Add a space after each word */}
+            {wordIndex < words.length - 1 && ' '}
+          </>
+        )}
       </h1>
       {isHomepage && (
         <div className="h2-wrapper">

@@ -23,7 +23,7 @@ export const Navbar = () => {
               />
             </Link>
             <div className="navbar-submenu">
-              <Link to="/about/vision">
+              <Link to="/vision">
                 <HiddenButton label="VÅR VISJON" />
               </Link>
             </div>

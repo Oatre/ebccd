@@ -26,10 +26,7 @@
     color: white;
   }
   
-  .heroWrapper h1 span:nth-of-type(1),
-  .heroWrapper h1 span:nth-of-type(10),
-  .heroWrapper h1 span:nth-of-type(16),
-  .heroWrapper h1 span:nth-of-type(25) {
+  .first-letter {
     color: #FF7F00;
   }
 
