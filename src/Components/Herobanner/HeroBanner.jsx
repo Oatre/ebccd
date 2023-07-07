@@ -11,6 +11,7 @@ export const HeroBanner = ({ title = '', link }) => {
   const words = title.split(' ');
 
   return (
+    
     <div className='heroWrapper'>
       <Link to="/">
         <img src={logo} alt="logo" style={{ maxWidth: '100%', height: 'auto' }} />
@@ -37,6 +38,7 @@ export const HeroBanner = ({ title = '', link }) => {
           <h2 className="h2-second">MED TO COACHER, DOBLES RESULTATENE</h2>
         </div>
       )}
+    
     </div>
   );
 };

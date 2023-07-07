@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import Button from '../Button/Button';
 import '../Navbar/navbar.css';
 import HiddenButton from '../Button/HiddenButton';
+import instagramlogo from '../../Assets/Instagram.svg';
 
 export const Navbar = () => {
 
@@ -36,7 +37,13 @@ export const Navbar = () => {
             <div className="bar"></div>
           </Link>
         </li>
+        <li className="navbar-item">
+          <a href="https://www.instagram.com/evidencebased_coaching_duo/" target="_blank" rel="noopener noreferrer">
+            <img src={instagramlogo} alt="Instagram logo" className="instagram-logo"/>
+          </a>
+        </li>
       </ul>
     </nav>
   );
 };
+
