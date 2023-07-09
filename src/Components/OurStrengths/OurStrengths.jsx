@@ -12,7 +12,7 @@ const OurStrengths = () => {
 
         {/* Styrke */}
         <div className="our-strength-item strength-1">
-          <img src={strength} alt="Strength 1" className="our-strength-image" />
+          <img src={strength} alt="Strength 1" className="our-strength-image strength-1" />
           <div className="our-strength-content">
             <h3 className="our-strength-title">STYRKE</h3>
             <p className="our-strength-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
@@ -21,7 +21,7 @@ const OurStrengths = () => {
 
         {/* Muskelvekst */}
         <div className="our-strength-item strength-2">
-          <img src={bigboy} alt="Strength 2" className="our-strength-image" />
+          <img src={bigboy} alt="Strength 2" className="our-strength-image strength-2" />
           <div className="our-strength-content">
             <h3 className="our-strength-title">MUSKELVEKST</h3>
             <p className="our-strength-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
@@ -30,7 +30,7 @@ const OurStrengths = () => {
 
         {/* Idrettslig prestasjon */}
         <div className="our-strength-item strength-3">
-          <img src={bigboy} alt="Strength 3" className="our-strength-image" />
+          <img src={bigboy} alt="Strength 3" className="our-strength-image strength-3" />
           <div className="our-strength-content">
             <h3 className="our-strength-title">IDRETTSLIG PRESTASJON</h3>
             <p className="our-strength-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
@@ -39,7 +39,7 @@ const OurStrengths = () => {
 
         {/* Kosthold og ernæring */}
         <div className="our-strength-item strength-4">
-          <img src={bigboy} alt="Strength 4" className="our-strength-image" />
+          <img src={bigboy} alt="Strength 4" className="our-strength-image strength-4" />
           <div className="our-strength-content">
             <h3 className="our-strength-title">KOSTHOLD OG ERNÆRING</h3>
             <p className="our-strength-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
