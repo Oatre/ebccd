@@ -5,33 +5,42 @@ import strength from '../../Assets/Styrke.png';
 
 const OurStrengths = () => {
   return (
+    // Wrapper, heading, general.
     <div className="our-strength-wrapper">
       <h2 className="our-strength-heading">VÅRE STYRKER</h2>
       <div className="our-strength-grid">
-        <div className="our-strength-item">
+
+        {/* Styrke */}
+        <div className="our-strength-item strength-1">
           <img src={strength} alt="Strength 1" className="our-strength-image" />
-          <div>
+          <div className="our-strength-content">
             <h3 className="our-strength-title">STYRKE</h3>
             <p className="our-strength-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
           </div>
         </div>
-        <div className="our-strength-item">
+
+        {/* Muskelvekst */}
+        <div className="our-strength-item strength-2">
           <img src={bigboy} alt="Strength 2" className="our-strength-image" />
-          <div>
+          <div className="our-strength-content">
             <h3 className="our-strength-title">MUSKELVEKST</h3>
             <p className="our-strength-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
           </div>
         </div>
-        <div className="our-strength-item">
+
+        {/* Idrettslig prestasjon */}
+        <div className="our-strength-item strength-3">
           <img src={bigboy} alt="Strength 3" className="our-strength-image" />
-          <div>
+          <div className="our-strength-content">
             <h3 className="our-strength-title">IDRETTSLIG PRESTASJON</h3>
             <p className="our-strength-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
           </div>
         </div>
-        <div className="our-strength-item">
+
+        {/* Kosthold og ernæring */}
+        <div className="our-strength-item strength-4">
           <img src={bigboy} alt="Strength 4" className="our-strength-image" />
-          <div>
+          <div className="our-strength-content">
             <h3 className="our-strength-title">KOSTHOLD OG ERNÆRING</h3>
             <p className="our-strength-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
           </div>
@@ -42,3 +51,4 @@ const OurStrengths = () => {
 };
 
 export default OurStrengths;
+
