@@ -61,9 +61,25 @@ ul.navbar:before {
   display: block;
 }
 
+
+.navbar-submenu2 {
+  display: none;
+  position: absolute;
+  background-color: #173350;
+  padding: 12px;
+  transition: 0.4;
+}
+
+.navbar-submenu2 a {
+  padding: 0;
+}
+
+.navbar-button-wrapper:hover .navbar-submenu2 {
+  display: block;
+}
+
 .instagram-logo {
   width: 34px;
   height: 34px;
 }
-
 

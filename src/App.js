@@ -3,6 +3,7 @@ import { Home } from "./Pages/Home";
 import { About } from "./Pages/About";
 import { Coaching } from "./Pages/Coaching";
 import { Ourvision } from './Pages/Ourvision';
+import { Contact } from './Pages/Contact';
 import "./index.css";
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
         <Route path="/about" element={<About />} />
         <Route path="/vision" element={<Ourvision />} />
         <Route path="/coaching" element={<Coaching/>}/>
+        <Route path="/kontakt-oss" element={<Contact/>}/>
       </Routes>
     </div>
   );

@@ -6,36 +6,40 @@ import HiddenButton from '../Button/HiddenButton';
 import instagramlogo from '../../Assets/Instagram.svg';
 
 export const Navbar = () => {
-
   return (
     <nav className="nav">
       <ul className="navbar">
         <li className="navbar-item">
           <Link to="/">
-            <Button label="HJEM" /> 
+            <Button label="HJEM" />
             <div className="bar"></div>
           </Link>
         </li>
         <li className="navbar-item">
           <div className="navbar-button-wrapper">
             <Link to="/about">
-              <Button
-                label="OM OSS"
-              />
+              <Button label="OM OSS" />
             </Link>
             <div className="navbar-submenu">
               <Link to="/vision">
                 <HiddenButton label="VÅR VISJON" />
               </Link>
             </div>
+            <div className="bar"></div>
           </div>
-          <div className="bar"></div>
         </li>
         <li className="navbar-item">
-          <Link to="/coaching">
-            <Button label="COACHING" />
+          <div className="navbar-button-wrapper">
+            <Link to="/coaching">
+              <Button label="COACHING" />
+            </Link>
+            <div className="navbar-submenu2">
+              <Link to="/kontakt-oss">
+                <HiddenButton label="KONTAKT OSS" />
+              </Link>
+            </div>
             <div className="bar"></div>
-          </Link>
+          </div>
         </li>
         <li className="navbar-item">
           <a href="https://www.instagram.com/evidencebased_coaching_duo/" target="_blank" rel="noopener noreferrer">
