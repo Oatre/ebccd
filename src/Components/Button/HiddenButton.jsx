@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-// import "./hiddenbutton.css";
 
 const HiddenButton = ({ label }) => {
   const [isVisible, setIsVisible] = useState(false);
