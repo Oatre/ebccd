@@ -54,11 +54,11 @@
 .our-strength-item::before {
   content: '';
   position: absolute;
-  width: 20%; /* change this to control the length of the line */
-  height: 4px; /* this controls the thickness of the line */
+  width: 20%; 
+  height: 4px; 
   background-color: #16314D; 
-  top: 50%; /* aligns the line vertically with the middle of the item */
-  right: -20%; /* position the line to the left of the item */
+  top: 50%; 
+  right: -20%; 
 }
 
 .strength-2,
@@ -69,7 +69,7 @@
 .strength-2::before,
 .strength-4::before {
   right: auto; 
-  left: -20%; /* position the line to the right of the item for even items */
+  left: -20%; 
 }
 
 .our-strength-item:nth-child(even) {
