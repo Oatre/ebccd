@@ -19,7 +19,7 @@ const PackageItem = (item) => (
         <ul className="info-list">
         {
             item.pack.benefits && item.pack.benefits.map((benefit) => (
-            <li className="info-item" key={benefit.id}>
+            <li className="info-item" key={benefit._key}>
                 <div className="dot">
                 {
                     benefit.included ?
