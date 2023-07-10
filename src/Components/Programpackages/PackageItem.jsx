@@ -14,7 +14,7 @@ const PackageItem = (item) => (
         </div>
         <div className="price-wrapper">
             <h3>{item.pack.price}</h3>
-            <p>{item.pack.priceSubTitle}</p>
+            <p>{item.pack.optionalIngress}</p>
         </div>
         <ul className="info-list">
         {
