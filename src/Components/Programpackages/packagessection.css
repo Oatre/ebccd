@@ -9,7 +9,6 @@ h1 {
 
 .packs-wrapper {
     margin-top: 800px;
-    max-width: 1200px;
     padding: 32px;
     padding-right: 32px;
     background-image: linear-gradient(to bottom, #16314D, #1E4364, #28547B, #336791);
@@ -108,4 +107,9 @@ h1 {
 
 .info-item p {
    margin: 16px 0;
+}
+
+.card-wrapper {
+    margin: auto;
+    max-width: 1200px;
 }
