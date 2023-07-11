@@ -1,8 +1,14 @@
-.hidden-button {
+/* .hidden-button {
     display: none;
   }
   
   .hidden-button.visible {
     display:inline-block;
     position: absolute;
-  }
+  } */
+
+  .dropdownItem:hover{
+    background: #3c6382;
+    transition: .4s;
+    border-radius: 4px;
+}
