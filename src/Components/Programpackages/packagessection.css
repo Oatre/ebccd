@@ -33,11 +33,9 @@ h1 {
 .card-list-item {
     background-color: #f5f5f5;
     min-width: 200px;
+    display: flex;
+    flex-direction: column;
     
-}
-
-.card-list-item .navBtn {
-    background-color: #4bae4f;
 }
 
 .headline-wrapper, .price-wrapper {
@@ -112,4 +110,23 @@ h1 {
 .card-wrapper {
     margin: auto;
     max-width: 1200px;
+}
+
+.button-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    padding-bottom: 1rem;
+    height: 100%;
+}
+
+.button-wrapper button {
+    background-color: #27ae60;
+    padding: 1rem 3rem;
+    border-radius: 4px;
+}
+
+.button-wrapper button:hover {
+    transition: 0.5s;
+    background-color: #2ecc71;
 }
