@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-// import "./hiddenbutton.css";
+import './hiddenbutton.css';
 
 const HiddenButton = ({ label }) => {
   const [isVisible, setIsVisible] = useState(false);
@@ -18,11 +18,11 @@ const HiddenButton = ({ label }) => {
       onMouseEnter={handleHover}
       onMouseLeave={handleMouseLeave}
     >
-      <button
-        className={`hidden-button ${isVisible ? 'visible' : ''}`}
+      <a href='/about'
+        className={`dropdownItem hidden-button ${isVisible ? 'visible' : ''}`}
       >
         {label}
-      </button>
+      </a>
     </div>
   );
 };
