@@ -1,11 +1,13 @@
+@use '../../Assets/styles/variables.scss' as v;
+
 .image-with-text {
   display: flex;
   align-items: center;
   justify-content: center;
   padding: 20px;
   border-radius: 8px;
-  background-image: linear-gradient(to bottom,#dcdde1, #47B5FF,#dcdde1 100%);
-  box-shadow: 0 2px 4px #dcdde1(0, 0, 0, 0.6);
+  background-image: linear-gradient(to bottom, v.$offWhite, v.$blue, v.$offWhite 100%);
+  box-shadow: 0 2px 4px v.$offWhite(0, 0, 0, 0.6);
   margin-bottom: 20px;
 }
 
@@ -17,10 +19,10 @@
 
 .image-with-text p {
   text-align: center;
-  background-color: gray, 98%;
+  background-color: v.$gray, 98%;
 }
 
 .image-with-text h1 {
-  color: black;
-  background: gray, 98%;
+  color: v.$black;
+  background: v.$gray, 98%;
 }

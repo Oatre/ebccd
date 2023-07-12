@@ -1,3 +1,5 @@
+@use '../../Assets/styles/variables.scss' as v;
+
 .our-strength-wrapper {
   width: 80%;
   margin: 2rem auto;
@@ -11,7 +13,7 @@
   left: 50%;
   height: 100%;
   width: 4px;
-  background: #16314D;
+  background: v.$darkerNavyBlue;
   margin-top: 56px;
 }
 
@@ -19,7 +21,7 @@
   text-align: center;
   font-size: 2rem;
   font-weight: bold;
-  color: #ffffff;
+  color: v.$white;
   margin-bottom: 2rem;
 }
 
@@ -46,7 +48,7 @@
   padding: 2rem;
   margin-bottom: 2rem;
   width: 40%;
-  background-image: linear-gradient(to bottom, #16314D, #1E4364);
+  background-image: linear-gradient(to bottom, v.$darkerNavyBlue, v.$navyBlue);
   border-radius: 8px;
   position: relative;
 }
@@ -56,7 +58,7 @@
   position: absolute;
   width: 20%; 
   height: 4px; 
-  background-color: #16314D; 
+  background-color: v.$darkerNavyBlue; 
   top: 50%; 
   right: -20%; 
 }
@@ -85,7 +87,7 @@
 .our-strength-title,
 .our-strength-description {
   margin-bottom: 1rem;
-  color: #ffffff;
+  color: v.$white;
 }
 
 .our-strength-title {

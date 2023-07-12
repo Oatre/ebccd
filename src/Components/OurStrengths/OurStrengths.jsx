@@ -1,8 +1,8 @@
 import React from 'react';
-import './ourstrengths.css';
-import bigboy from "../../Assets/bigboy.jpg";
-import strength from '../../Assets/Styrke.png';
-import idrett from '../../Assets/idrett.jpeg';
+import './ourstrengths.scss';
+import bigboy from "../../Assets/images/bigboy.jpg";
+import strength from '../../Assets/images/Styrke.png';
+import idrett from '../../Assets/images/idrett.jpeg';
 
 const OurStrengths = () => {
   return (

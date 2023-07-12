@@ -1,9 +1,9 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import Button from '../Button/Button';
-import '../Navbar/navbar.css';
+import '../Navbar/navbar.scss';
 import HiddenButton from '../Button/HiddenButton';
-import instagramlogo from '../../Assets/Instagram.svg';
+import instagramlogo from '../../Assets/images/Instagram.svg';
 
 export const Navbar = () => {
   return (
@@ -33,7 +33,7 @@ export const Navbar = () => {
             <Link to="/coaching">
               <Button label="COACHING" />
             </Link>
-            <div className="navbar-submenu2">
+            <div className="navbar-submenu">
               <Link to="/kontakt-oss">
                 <HiddenButton label="KONTAKT OSS" />
               </Link>

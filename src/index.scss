@@ -1,3 +1,5 @@
+@use './Assets/styles/variables.scss' as v;
+
 @font-face {
   font-family: 'Montserrat';
   src: url(./Fonts/Montserrat/Montserrat-VariableFont_wght.ttf);
@@ -19,6 +21,6 @@ code {
 
 .pageWrapper {
   position: relative;
-  background-color: #06283D;
+  background-color: v.$darkBlue;
   
 }

@@ -4,7 +4,6 @@ import { About } from "./Pages/About";
 import { Coaching } from "./Pages/Coaching";
 import { Ourvision } from './Pages/Ourvision';
 import { Contact } from './Pages/Contact';
-import "./index.css";
 
 function App() {
   return (

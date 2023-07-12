@@ -1,5 +1,5 @@
 import React from 'react'
-import checkmark from '../../Assets/checkmark.png';
+import checkmark from '../../Assets/images/checkmark.png';
 import Button from '../Button/Button';
  
 const PackageItem = (item) => (
@@ -14,12 +14,12 @@ const PackageItem = (item) => (
         </div>
         <div className="price-wrapper">
             <h3>{item.pack.price}</h3>
-            <p>{item.pack.priceSubTitle}</p>
+            <p>{item.pack.optionalIngress}</p>
         </div>
         <ul className="info-list">
         {
             item.pack.benefits && item.pack.benefits.map((benefit) => (
-            <li className="info-item" key={benefit.id}>
+            <li className="info-item" key={benefit._key}>
                 <div className="dot">
                 {
                     benefit.included ?
@@ -33,7 +33,9 @@ const PackageItem = (item) => (
             ))
         }
         </ul>
-        <Button label= "Bestill"/>
+        <div className='button-wrapper'>
+            <Button label= "Bestill"/>
+        </div>
     </li>
 )
 
