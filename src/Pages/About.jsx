@@ -2,7 +2,7 @@ import React from 'react'
 import { Navbar } from '../Components/Navbar/Navbar'
 import { HeroBanner } from '../Components/Herobanner/HeroBanner'
 import ImageWithText from '../Components/ImageWithText/ImageWithText'
-import bigboy from "../Assets/bigboy.jpg";
+import bigboy from "../Assets/images/bigboy.jpg";
 export const About = () => {
   return (
     <div>

@@ -1,5 +1,5 @@
 import React from 'react'
-import checkmark from '../../Assets/checkmark.png';
+import checkmark from '../../Assets/images/checkmark.png';
 import Button from '../Button/Button';
  
 const PackageItem = (item) => (

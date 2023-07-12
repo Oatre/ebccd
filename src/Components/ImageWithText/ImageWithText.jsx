@@ -1,5 +1,5 @@
 import React from 'react';
-import './imagewithtext.css';
+import './imagewithtext.scss';
 
 const ImageWithText = ({ imageSrc, altText, heading, text }) => {
   return (

@@ -1,6 +1,6 @@
 import React from 'react';
-import logo from "../../Assets/whitenobackgrund.png";
-import './herobanner.css';
+import logo from "../../Assets/images/whitenobackgrund.png";
+import './herobanner.scss';
 import { Link, useLocation } from 'react-router-dom';
 
 export const HeroBanner = ({ title = '', link }) => {
