@@ -33,7 +33,9 @@ const PackageItem = (item) => (
             ))
         }
         </ul>
-        <Button label= "Bestill"/>
+        <div className='button-wrapper'>
+            <Button label= "Bestill"/>
+        </div>
     </li>
 )
 
