@@ -34,7 +34,7 @@ export const HeroBanner = ({ title = '', link }) => {
       </h1>
       {isHomepage && (
         <div className="h2-wrapper">
-          <h2 className="h2-first">SAMMEN ER VI STERKERE &nbsp; </h2>
+          <h2 className="h2-first">SAMMEN ER VI STERKERE</h2>
           <h2 className="h2-second">MED TO COACHER, DOBLES RESULTATENE</h2>
         </div>
       )}

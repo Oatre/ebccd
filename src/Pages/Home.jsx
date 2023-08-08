@@ -10,7 +10,7 @@ export const Home = () => {
   return (
     <div>
       <Navbar />
-      <HeroBanner title="EVIDENCE-BASED COACHING DUO" />
+      <HeroBanner title="EVIDENCE–BASED COACHING DUO" />
       <OurStrengths/>
       <PackagesSection/> 
     </div>
